@@ -1,0 +1,19 @@
+{
+  "name": "test-upgrade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "before": "node index.js before",
+    "after": "node index.js after",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^0.11.0"
+  },
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
+}
